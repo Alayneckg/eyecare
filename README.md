@@ -60,4 +60,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# eyecare
+
+## Installing
+Para abrir o projeto siga os seguinte passos:
+1 - Baixe o projeto 
+2 - Rode composer update dentro da pasta do projeto
+3 - Adicione o .env e seus dados para o banco de dados
+4 - Rode *php artisan migrate*
+5 - Rode *php artisan db:seed --class=ProductSeeder*
+6 - Rode *php artisan serve* 
