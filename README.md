@@ -74,4 +74,8 @@ Para abrir o projeto siga os seguinte passos:
 
 5 - Rode *php artisan db:seed --class=ProductSeeder*
 
-6 - Rode *php artisan serve* 
+6 - Rode *composer dumpautoload*
+
+7 - Rode *php artisan key:generate*
+
+8 - Rode *php artisan serve* 
